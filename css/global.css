@@ -1,0 +1,21 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root{
+   --brand-color-light: #60A5FA;
+   --brand-color-dark: #1D4ED8;
+   --bg-color: #0F172A;
+   --stroke-color: #1E293B;
+   --text-color-primary: #F1F5F9;
+   --text-color-secondary: #CBD5E1;
+
+   --font-family:"Archivo", sans-serif;
+   --heading1: 24px/135% ExtraBold var(--font-family);
+   --heading2: 16px/140% ExtraBold var(--font-family);
+   --heading3: 14px/140% ExtraBold var(--font-family);
+   --span: 14px/145% SemiBold var(--font-family);
+   --paragraph: 14px/160% Regular var(--font-family);
+}
