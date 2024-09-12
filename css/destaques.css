@@ -1,0 +1,62 @@
+@import url(global.css);
+
+.destaques {
+   display: flex;
+   justify-content: center;
+   padding: 40px 0 80px 0;
+   gap: 16px;
+}
+
+#primeira-news {
+   display: flex;
+   width: 608px;
+   height: 416px;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   background-image: linear-gradient(rgba(0,0,0,0),rgb(02,06,23)), url(../assets/images/Image\ 01.png);
+   background-size: contain;
+   gap: 8px;
+   padding: 24px;
+}
+
+#primeira-news p{
+   font: 800 var(--heading1);
+   color: var(--text-color-primary);
+}
+
+#grid-quadrado {
+   display: grid;
+   grid-template-columns: 288px 288px;
+   gap: 16px;
+}
+
+#grid-quadrado div {
+   display: flex;
+   height: 200px;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   background-size: contain;
+   gap: 8px;
+   padding: 12px;
+}
+
+#grid-quadrado div p{
+   font: 800 var(--heading3);
+   color: var(--text-color-primary);
+}
+
+#grid-quadrado div:nth-child(1) {
+   background-image: linear-gradient(rgba(0,0,0,0),rgb(02,06,23)), url(../assets/images/Image\ 02.png);
+}
+#grid-quadrado div:nth-child(2) {
+   background-image: linear-gradient(rgba(0,0,0,0),rgb(02,06,23)), url(../assets/images/Image\ 03.png);
+}
+#grid-quadrado div:nth-child(3) {
+   background-image: linear-gradient(rgba(0,0,0,0),rgb(02,06,23)), url(../assets/images/Image\ 04.png);
+}
+#grid-quadrado div:nth-child(4) {
+   background-image: linear-gradient(rgba(0,0,0,0),rgb(02,06,23)), url(../assets/images/Image\ 05.png);
+}
+

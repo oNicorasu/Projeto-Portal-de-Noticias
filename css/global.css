@@ -7,15 +7,47 @@
 :root{
    --brand-color-light: #60A5FA;
    --brand-color-dark: #1D4ED8;
-   --bg-color: #0F172A;
+   --bg-color: rgb(15, 23, 42);
    --stroke-color: #1E293B;
    --text-color-primary: #F1F5F9;
    --text-color-secondary: #CBD5E1;
 
    --font-family:"Archivo", sans-serif;
-   --heading1: 24px/135% ExtraBold var(--font-family);
-   --heading2: 16px/140% ExtraBold var(--font-family);
-   --heading3: 14px/140% ExtraBold var(--font-family);
-   --span: 14px/145% SemiBold var(--font-family);
+   --font-family2:"Archivo Black", sans-serif;
+   --h1: 24px/140% var(--font-family2);
+   --heading1: 24px/135% var(--font-family);
+   --heading2: 16px/160% var(--font-family);
+   --heading2-1: 16px/140% var(--font-family);
+   --heading3: 14px/140% var(--font-family);
+   --heading3-1: 14px/145% var(--font-family);
+   --span: 10px/12px var(--font-family);
    --paragraph: 14px/160% Regular var(--font-family);
+}
+
+body {
+   margin: auto;
+   width: 1280px;
+   font-family: var(--font-family);
+   background-color: var(--bg-color);
+}
+
+.divisor {
+   border: solid var(--stroke-color) 1px;
+   margin: 0px 32px;
+}
+
+.content {
+   color: var(--text-color-primary);
+   border-radius: 4px;
+   padding: 4px 8px;
+   background-color: var(--brand-color-dark);
+   box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
+   font: var(--span);
+   line-height: 12px;
+   font-weight: 500;
+text-transform: uppercase;
+}
+
+a {
+   text-decoration: none;
 }

@@ -1,0 +1,35 @@
+@import url(global.css);
+
+#primary-navbar {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 32px;
+}
+
+#primary-navbar div{
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+#primary-navbar div a h2{
+   font: bold var(--heading2);
+   color: var(--text-color-primary);
+}
+
+#primary-navbar h1{
+   font: 400 var(--h1);
+   color: var(--brand-color-light);
+}
+
+#secondary-navbar ul{
+   display: flex;
+   list-style: none;
+   padding: 14px 32px;
+   justify-content: space-between;
+}
+
+#secondary-navbar ul li a{
+   font: var(--heading3-1);
+   color: var(--text-color-secondary);
+}

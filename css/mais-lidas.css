@@ -1,0 +1,70 @@
+@import url(global.css);
+
+#mais-lidas {
+   display: grid;
+   padding: 12px 32px 80px 32px;
+   gap: 24px;
+}
+
+.heading {
+   display: flex;
+   justify-content: space-between;
+   font: var(--heading3-1);
+   color: var(--text-color-secondary);
+   align-items: center;
+}
+
+.heading div{
+   display: flex;
+   gap: 4px;
+}
+
+#mais-lidas .lidas{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.lidas div {
+   width: 292px;
+   height: 234px;
+}
+
+.lidas div div{
+   height: 160px;
+   background-size: contain;
+   padding: 8px;
+}
+
+.lidas p {
+   font: 800 var(--heading2-1);
+   color: var(--text-color-primary);
+}
+
+#ml-1{
+   height: 160px;
+   background-image: url(../assets/images/Image\ 06.png);
+   background-size: contain;
+   margin-bottom: 8px;
+}
+
+#ml-2{
+   height: 160px;
+   background-image: url(../assets/images/Image\ 07.png);
+   background-size: contain;
+   margin-bottom: 8px;
+}
+
+#ml-3{
+   height: 160px;
+   background-image: url(../assets/images/Image\ 08.png);
+   background-size: contain;
+   margin-bottom: 8px;
+}
+
+#ml-4{
+   height: 160px;
+   background-image: url(../assets/images/Image\ 09.png);
+   background-size: contain;
+   margin-bottom: 8px;
+}

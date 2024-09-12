@@ -1,0 +1,6 @@
+@import url(global.css);
+
+#destaques-IA {
+   display: grid;
+   grid-template-columns: 696px 488px;
+}
