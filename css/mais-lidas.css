@@ -6,19 +6,6 @@
    gap: 24px;
 }
 
-.heading {
-   display: flex;
-   justify-content: space-between;
-   font: var(--heading3-1);
-   color: var(--text-color-secondary);
-   align-items: center;
-}
-
-.heading div{
-   display: flex;
-   gap: 4px;
-}
-
 #mais-lidas .lidas{
    display: flex;
    flex-direction: row;

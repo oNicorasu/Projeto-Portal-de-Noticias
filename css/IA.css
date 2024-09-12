@@ -3,4 +3,56 @@
 #destaques-IA {
    display: grid;
    grid-template-columns: 696px 488px;
+   margin-bottom: 80px;
+   gap: 32px;
+   justify-content: center;
+}
+
+#long {
+   margin: 0;
+   margin-bottom: 12px;
+}
+
+#hbottom {
+   margin-bottom: 24px;
+}
+
+#IA {
+
+}
+
+.left {
+   display: grid;
+   gap: 32px;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 16px;
+}
+
+.container div img {
+   height: 176px;
+   width: 176px;
+   align-items: center;
+}
+
+.text {
+   width: 504px;
+   height: 176px;
+   display: grid;
+   gap: 4px;
+   justify-items: start;
+   align-items: center;
+}
+
+.text h2{
+   font: 800 var(--heading2-1);
+   color: var(--text-color-primary);
+}
+
+.text p{
+   font: var(--paragraph);
+   color: var(--text-color-secondary);
 }
