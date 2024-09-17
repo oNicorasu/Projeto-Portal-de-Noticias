@@ -15,6 +15,7 @@
    --font-family:"Archivo", sans-serif;
    --font-family2:"Archivo Black", sans-serif;
    --h1: 24px/140% var(--font-family2);
+   --h3: 14px/140% var(--font-family2);
    --heading1: 24px/135% var(--font-family);
    --heading2: 16px/160% var(--font-family);
    --heading2-1: 16px/140% var(--font-family);
