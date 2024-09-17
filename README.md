@@ -1,5 +1,5 @@
 
-# Projeto de Local Turístico
+# Projeto de Portal de Notícia
 - Site feito em HTML e CSS (com foco em CSS Flexbox e CSS Grid)
 
 
